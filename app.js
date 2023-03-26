@@ -13,7 +13,7 @@ clear.addEventListener('click', ()=>{
 equal.addEventListener('click', ()=>{
 		try {
     		resultBox.innerHTML = eval(resultBox.innerHTML); 
-    		if(resultBox.innerHTML = 'undefined'){
+    		if(resultBox.innerHTML == 'undefined'){
     			resultBox.innerHTML = '';
     		}
 		} catch (e) {
